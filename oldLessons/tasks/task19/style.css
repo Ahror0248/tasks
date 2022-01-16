@@ -1,0 +1,29 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 250px;
+  height: 320px;
+  border: 1px solid rgb(196, 190, 190);
+  text-align: center;
+  font-family: sans-serif;
+  margin-right: 40px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.phoneIcon{
+  width: 80px;
+  margin-top: 20px;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.desc{
+  color: rgb(109, 107, 107);
+}

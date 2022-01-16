@@ -1,0 +1,23 @@
+.a {
+  text-decoration: none !important;
+}
+
+
+input {
+  font-size: 1px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img{
+  transition: all 0.5s linear;
+  width: 10px;
+  height: 10px;
+}
+
+.bg{
+    background-color: turquoise;
+    border-bottom: 1px solid rgb(238, 238, 238) !important;
+}
+

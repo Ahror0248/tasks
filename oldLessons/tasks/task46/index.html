@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <title>task46</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="col-8 px-5">
+          <h3 class="title mt-4">Yangi buyurtma qo'shish</h3>
+          <div
+            class="nav mt-4 d-flex align-items-center justify-content-md-around"
+          >
+            <div
+              class="col-12 d-flex justify-content-md-around align-items-center"
+            >
+              <ul
+                class="d-flex align-items-center justify-content-md-around mt-3"
+              >
+                <li><a href="#">Burger</a></li>
+                <li><a href="#">Lavash</a></li>
+                <li><a href="#">Garniyer</a></li>
+                <li><a href="#">Salatlar</a></li>
+                <li><a href="#">Ichimliklar</a></li>
+                <li><a href="#">Sous</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-6 box1">
+              <img src="./assets/fried11.jpeg" alt="fri" />
+              <div class="leftBottom">
+                <h4 class="name">Kartofel fri (150g)</h4>
+                <div class="desc">Kartofel fri species</div>
+                <div
+                  class="
+                    leftFooter
+                    d-flex
+                    justify-content-md-between
+                    align-items-center
+                  "
+                >
+                  <p class="price"><b>5,000</b> UZS</p>
+                  <p class="number">- &nbsp; 2 &nbsp; +</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 box2 box1">
+              <img src="./assets/fried2.jpg" alt="fri" />
+              <div class="leftBottom">
+                <h4 class="name">Kartofel fri (150g)</h4>
+                <div class="desc">Kartofel fri species</div>
+                <div
+                  class="
+                    leftFooter
+                    d-flex
+                    justify-content-md-between
+                    align-items-center
+                  "
+                >
+                  <p class="price"><b>5,000</b> UZS</p>
+                  <button class="add1">+ Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-6 box1">
+              <img src="./assets/fried2.jpg" alt="fri" />
+              <div class="leftBottom">
+                <h4 class="name">Kartofel fri (150g)</h4>
+                <div class="desc">Kartofel fri species</div>
+                <div
+                  class="
+                    leftFooter
+                    d-flex
+                    justify-content-md-between
+                    align-items-center
+                  "
+                >
+                  <p class="price"><b>5,000</b> UZS</p>
+                  <button class="add1">+ Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 px-5">
+          <div
+            class="header mt-4 d-flex align-items-center justify-content-md-between"
+          >
+            <h3>Buyurtma ro'yxati</h3>
+            <div class="deleteIcon d-flex align-items-center justify-content-md-center"><i class="fas fa-trash-alt"></i></div>
+          </div>
+
+          <div class="headerBox mt-3 p-4  ">
+            <div class="foodAll">
+              <div class="food d-flex align-items-center justify-content-between">
+                <p class="foodName">Shaurma o'rtacha</p>
+                <p class="foodPrice">4*15 000 UZS</p>
+              </div>
+              <div class="food d-flex align-items-center justify-content-between">
+                <p class="foodName">Klab sandwich</p>
+                <p class="foodPrice">2*23 000 UZS</p>
+              </div>
+              <div class="food d-flex align-items-center justify-content-between">
+                <p class="foodName">Coca Cola</p>
+                <p class="foodPrice">1*9 000 UZS</p>
+              </div>
+            </div>
+            <div class="allPrice">
+              <p class="priceDesc">Umumiy summa</p>
+              <p class="priceAll"><b>120,000</b> UZS</p>
+            </div>
+          </div>
+          <label for="mijozIsmi" class="mijozname mt-4 "> Mijoz ismi <br>
+            <div class="inputDiv d-flex align-items-center">
+              <input type="text" value="Muhammad Jumayev" id="mijozIsmi" class="mt-2 mijozismi">
+            <div class="userIcon d-flex align-items-center justify-content-center"><i class="fas fa-user-plus"></i></div>
+            </div>
+          </label>
+          <label for="phone" class="phoneNumber  mt-4 "> Telefon raqam <br>
+            <div class="inputDiv d-flex align-items-center">
+              <input type="text" value="(+99 893) 461-52-45" id="phone" class="mt-2 mijozismi phone">
+            </div>
+          </label>
+          <label for="manzil" class="phoneNumber  mt-4 "> Manzil <br>
+            <div class="inputDiv d-flex align-items-center">
+              <input type="text" value="Yunusobod t., Bog'ishamol 12, 23" id="manzil" class="mt-2 mijozismi phone">
+            </div>
+          </label>
+          <div class="map mt-2"><img src="./assets/map.jpeg" alt="map"  ></div>
+          <button class="save mt-4">Saqlash</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

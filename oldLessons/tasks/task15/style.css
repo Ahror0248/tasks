@@ -1,0 +1,61 @@
+body{
+  font-family: sans-serif;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.allButton{
+  display: flex;
+  justify-content: center;
+}
+
+.button1{
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(to right, #ff7575, #f5b96c);
+  border: none;
+  outline: none;
+  color: white; 
+  margin-right: 10px;
+}
+
+.button2{
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(to right, #a1c3ff, #1562eb);
+  border: none;
+  outline: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.button3{
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(to right, #7dee9f, #16f758);
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+.button4{
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(to right, #ed95d1, #e817a6);
+  border: none;
+  outline: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.button5{
+  width: 110px;
+  height: 40px;
+  background: #d4d4d4;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}

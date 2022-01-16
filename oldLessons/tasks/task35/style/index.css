@@ -1,0 +1,132 @@
+body {
+  background-color: #dedede;
+}
+
+body .container {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+body .container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+body .container .navbar h1 {
+  margin: 0;
+}
+
+body .container .navbar .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .navbar .buttons button {
+  width: 100px;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 3px solid #c1bfbf;
+  margin-right: 10px;
+}
+
+body .container .navbar .buttons button:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: red;
+  border: 3px solid red;
+  color: white;
+}
+
+body .container .navbar .buttons button + button {
+  margin-left: 15px;
+}
+
+body .container .row .colList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .row .colList .col {
+  width: 290px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+body .container .row .colList .col .card-header img {
+  width: 100%;
+}
+
+body .container .row .colList .col .card-body {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container .row .colList .col .card-body h5 {
+  color: #dedddd;
+}
+
+body .container .row .colList .col .card-body h5 span {
+  background-color: red;
+  height: 20px;
+  border: 1px solid red;
+  margin-right: 3px;
+}
+
+body .container .row .colList .col .card-body h4 {
+  font-size: 15px;
+}
+
+body .container .row .colList .col .card-body h5 {
+  color: #cecdcd;
+  margin-bottom: 0;
+}
+
+body .container .row .colList .col .card-body h5 img {
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
+}
+
+body .container .row .colList .col + .col {
+  margin-left: 15px;
+}
+
+body .container .row .buttonList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .row .buttonList button {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+/*# sourceMappingURL=index.css.map */

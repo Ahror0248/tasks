@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  background-color: rgb(49, 0, 82);
+}
+
+.container{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+ .container::after{
+  content: '';
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .1;
+  animation-delay: 4s;
+} 
+
+.firstDiv{
+  position: absolute;
+  animation-delay: .8s;
+  width: 130px;
+  height: 130px;
+  background-color: rgb(255, 255, 255);
+  opacity: .2;
+  animation: playback 1.5s ease-in-out infinite ;
+  border-radius: 50%;
+}
+
+ .secondDiv{
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  background-color:rgb(255, 255, 255);
+  opacity: .2;
+  border-radius: 50%;
+  animation: playback 1s ease-in-out infinite ;
+  animation-delay: .4s;
+}
+
+.thirdDiv{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:rgb(255, 255, 255);
+  border-radius: 50%;
+  opacity: .4;
+  animation: playback 1s ease-in-out infinite ;
+  animation-delay: .2s;
+}
+
+.icon{
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: aliceblue;
+  animation: playback 1s ease-in-out infinite ;
+} 
+
+@keyframes playback{
+  40%, 60%{
+    transform:scale(1)'
+  }
+  50%{
+   transform:scale( 0.9);
+  } 
+}
+
+.fa-play{
+  font-size: 30px;
+  color: rgb(49, 0, 82);
+  
+  z-index: 999;
+}

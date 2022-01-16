@@ -1,0 +1,251 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(233, 233, 233);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  .nav-section {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      font-size: 30px;
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      background-color: transparent;
+      outline: none;
+      border: 2px solid rgb(134, 134, 134);
+      border-radius: 5px;
+      font-size: 15px;
+    }
+  }
+  .body-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+    position: relative;
+    .card {
+      width: 45%;
+      height: 600px;
+      border-radius: 5px;
+      background-color: #fff;
+      .imgDiv {
+        position: relative;
+
+        .firstImg {
+          width: 100%;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .live {
+          width: 100px;
+          height: 35px;
+          color: #fff;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          background-color: red;
+          position: absolute;
+          top: 4%;
+          left: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          font-weight: 600;
+        }
+
+        .circle {
+          width: 10px;
+          height: 10px;
+          background-color: #fff;
+          border-radius: 50%;
+        }
+
+        .player {
+          position: absolute;
+          top: 40%;
+          left: 43%;
+          // transform: translate(-50% -50%);
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: #fff;
+          opacity: 0.3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .fa-play {
+          font-size: 25px;
+          opacity: 0.7;
+        }
+      }
+
+      .cardInfo {
+        padding: 30px;
+
+        .cardTitle {
+          margin: 0;
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+
+        .userName {
+          font-size: 20px;
+          font-weight: 400;
+          margin-top: 0;
+        }
+        .cardFooter {
+          display: flex;
+          justify-content: space-between;
+          .footerDesc {
+            color: grey;
+            font-size: 15px;
+            letter-spacing: 0.6px;
+          }
+          .socialIcons {
+            display: flex;
+            align-items: center;
+            .facebook {
+              width: 35px;
+              height: 35px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 4px;
+              margin-right: 20px;
+              background-color: rgb(94, 93, 93);
+            }
+            .youtube {
+              width: 35px;
+              height: 35px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 4px;
+              background-color: rgb(94, 93, 93);
+            }
+          }
+        }
+      }
+    }
+
+    .allRightCards{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .rightCards {
+      margin-bottom: 59px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .smallCard {
+        width: 45%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 5px;
+        position: relative;
+        
+        .smallCardImg{
+          width: 100%;
+          height: 60%;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .smallPlayer{
+          width: 50px;
+          height: 50px;
+          background-color: #fff;
+          border-radius: 50%;
+          opacity: .4;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 22%;
+          left: 40%;
+          .fa-play{
+            font-size: 21px;
+            opacity: .8;
+          }
+        }
+
+        .anons{
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          width: 80px;
+          height: 23px;
+          outline: none;
+          background-color: red;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          position: absolute;
+          top: 0;
+          right: 0;
+          cursor: pointer;
+          img{
+            width: 16px;
+            height: 14px;
+          }
+        }
+
+        .smallCardInfo{
+          padding: 20px;
+          margin: 0;
+
+          .smallCardTitle{
+            font-size: 15px;
+          }
+          .smallCardFooter{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 25px;
+
+            .likes{
+              display: flex;
+              align-items: center;
+              .greatDiv{
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                color: grey;
+                font-size: 14px;
+              }
+              .lowDiv{
+                display: flex;
+                align-items: center;
+                margin-right: 10px;
+                color: grey;
+                font-size: 14px;
+              }
+            }
+
+            .eyelash{
+              display: flex;
+              align-items: center;
+              color: grey;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

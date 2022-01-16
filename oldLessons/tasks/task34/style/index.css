@@ -1,0 +1,149 @@
+.container {
+    /*width: 1200px;*/
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 83.4%;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 250px;
+    background-color: crimson;
+    position: relative;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.rowList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid crimson;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    z-index: 1;
+}
+
+p {
+    color: white;
+    margin: 0;
+
+}
+
+h2 {
+    margin: 10px 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+    transition: 0.8s;
+}
+
+
+.col:hover img {
+    transform: scale(1.2);
+}
+.col:nth-child(1){
+    background-color: #A979C4;
+}
+.col:nth-child(1) .arrow-right{
+    border-left: 20px solid #A979C4;
+}
+
+.col:nth-child(2){
+    background-color: #5DADE2;
+}
+.col:nth-child(2) .arrow-right{
+    border-left: 20px solid #5DADE2;
+}
+
+.col:nth-child(3){
+    background-color: #48C9B0;
+}
+.col:nth-child(3) .arrow-right{
+    border-left: 20px solid #48C9B0;
+}
+
+.col:nth-child(4){
+    background-color: #52BE80;
+}
+.col:nth-child(4) .arrow-right{
+    border-left: 20px solid #52BE80;
+    display: none;
+}
+
+ .col:nth-child(5){
+    background-color: #ECC837;
+}
+ .col:nth-child(5) .arrow-right{
+    border-left: 20px solid #ECC837;
+}
+
+ .col:nth-child(6){
+    background-color: #EB984E;
+}
+ .col:nth-child(6) .arrow-right{
+    border-left: 20px solid #EB984E;
+}
+
+ .col:nth-child(7){
+    background-color: #F06292;
+}
+ .col:nth-child(7) .arrow-right{
+    border-left: 20px solid #F06292;
+}
+
+ .col:nth-child(8){
+    background-color: #4DB6AC;
+}
+ .col:nth-child(8) .arrow-right{
+    border-left: 20px solid #4DB6AC;
+     display: none;
+}
+
+
+.col:hover{
+    transition: all 0.5s linear;
+    background-color: #0758d2;
+}
+.col:hover .arrow-right{
+    transition: all 0.5s linear;
+    border-left: 20px solid #0758d2;
+}
+
+ .col:hover{
+    transition: all 0.5s linear;
+    background-color: #0758d2;
+}
+ .col:hover .arrow-right{
+    transition: all 0.5s linear;
+    border-left: 20px solid #0758d2;
+}
+
+
+@media (max-width: 999.9px) {
+    .col{
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .arrow-right{
+        display: none;
+    }
+}

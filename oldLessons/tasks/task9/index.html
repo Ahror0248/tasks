@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task9</title>
+  </head>
+  <body>
+    <table border="1" style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" id="male">
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+          </td>
+        </tr>
+          <tr>
+            <td>Eye-color</td>
+            <td><select name="color" id="color">
+              <option value="color">green</option>
+              <option value="color">red</option>
+              <option value="color">grey</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Check all that apply</td>
+            <td>
+              <input type="checkbox" id="item">
+              <label for="item">Over 6 feet tall</label> <br>
+              <input type="checkbox" id="value">
+              <label for="value">Over 200 pounds</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">Describe your atheletic skills: <br>
+              <textarea name="skill" id="skill" cols="37" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr><td colspan="2" align="center"><input type="submit" value="Enter my information"></td></tr>
+      </tbody>
+    </table>
+  </body>
+</html>

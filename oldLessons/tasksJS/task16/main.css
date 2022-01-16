@@ -1,0 +1,51 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.iw {
+    position: relative;
+}
+
+.iw p {
+    position: absolute;
+    top: 23px;
+    right: 5px;
+    color: black;
+}
+
+.wrapper p:hover {
+    cursor: pointer;
+}
+
+.login {
+    position: absolute;
+    top: -21px;
+}
+
+.email {
+    position: absolute;
+    bottom: -27px;
+}
+
+h6 {
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+}
+
+.progress {
+    height: 2px !important;
+}
+
+/* .main-input {
+    width: 200px;
+    padding-right: 36px;
+    border: none;
+    outline: 0 !important;
+}
+
+.main-input:click{
+    outline: 0 !important;
+} */

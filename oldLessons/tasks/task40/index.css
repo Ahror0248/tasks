@@ -1,0 +1,59 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .container .input {
+    margin-top: 100px;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid silver;
+    background-color: transparent;
+    transition: all 0.25s linear;
+    font-size: 16px; }
+    .container .input:focus-visible {
+      outline: 0;
+      border-bottom: 2px solid green;
+      cursor: text;
+      caret-color: green; }
+    .container .input:disabled {
+      border-bottom: 2px dotted silver; }
+    .container .input:first-child {
+      margin-top: 200px; }
+    .container .input::placeholder {
+      font-size: 16px; }
+  .container .label {
+    position: relative; }
+    .container .label .pos {
+      width: 100%;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      bottom: -27px;
+      color: red; }
+      .container .label .pos p {
+        padding: 0;
+        margin: 0; }
+    .container .label .input2 {
+      margin-top: 100px;
+      width: 300px;
+      height: 30px;
+      border: 0;
+      border-bottom: 2px solid silver;
+      background-color: transparent;
+      transition: all 0.25s linear;
+      font-size: 16px; }
+      .container .label .input2::placeholder {
+        font-size: 16px; }
+      .container .label .input2:focus-visible {
+        outline: 0;
+        cursor: text;
+        caret-color: red; }
+  .container #icon {
+    font-size: 20px; }
+
+/*# sourceMappingURL=index.css.map */

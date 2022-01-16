@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AASA,GAAG;EALD,SAAS,EAAE,gBAAgB;EAC3B,SAAS,EAAE,IAAI;;AAQjB,IAAI;EAZF,SAAS,EAAE,iBAAiB",
+"sources": ["../sass/homeworkmain.scss"],
+"names": [],
+"file": "homeworkmain.css"
+}

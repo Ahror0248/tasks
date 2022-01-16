@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(246, 246, 246);
+}
+
+.container{
+  min-width: 1700px !important;
+}
+
+.btnName{
+  text-align: center;
+  vertical-align: middle !important;
+  color: rgb(124, 124, 124);
+  font-weight: 600;
+}
+
+.table-bordered{
+  border-color: transparent;
+}
+
+.tr{
+  height: 80px;
+}
+
+td{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn1{
+  margin-top: 10px;
+  width: 120px;
+  height: 70px;
+}
+
+.btn2{
+  margin-top: 20px;
+  width: 100px;
+  height: 60px;
+}
+
+.btn3{
+  margin-top: 30px;
+  width: 85px;
+  height: 50px;
+}
+
+.btn4{
+  margin-top: 40px;
+  width: 70px;
+  height: 40px;
+}
+
+.btn5{
+  margin-top: 50px;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.star1{
+  width: 70px;
+  height: 70px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.star2{
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.star3{
+  width: 54px;
+  height: 54px;
+  margin-top: 26px;
+  font-size: 25px;
+}
+
+.star4{
+  width: 42px;
+  height: 42px;
+  margin-top: 38px;
+  font-size: 15px;
+}
+
+.star5{
+  width: 35px;
+  height: 35px;
+  margin-top: 45px;
+  font-size: 12px;
+}

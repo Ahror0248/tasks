@@ -1,0 +1,213 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(236, 236, 236) !important;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+.col-3{
+  background-color: #ffffff !important;
+  border: 2px solid rgb(236, 236, 236);
+  
+}
+
+.box .btn{
+  width: 120px;
+  height: 55px;
+  border-radius: 50px;
+  font-size: 29px;
+  letter-spacing: .6px;
+}
+
+.box .saved{
+  height: 55px;
+  width: 55px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 50%;
+}
+
+.fa-bookmark{
+  font-size: 30px;
+}
+
+.cardHr{
+  width: 117px !important;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: 27px;
+}
+
+.time{
+  padding-left: 27px;
+}
+
+.far{
+  color: grey;
+}
+
+.fa-clock{
+  font-size: 30px;
+}
+
+.time p{
+  letter-spacing: .6px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.header2 .far{
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.body2 .fas{
+  font-size: 20px;
+  color: grey;
+  margin-right: 30px;
+}
+
+.body2 p{
+  letter-spacing: .6px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.note .fa-clipboard{
+  font-size: 20px;
+}
+
+.fas, .far{
+  color: rgb(170, 170, 170);
+}
+
+.blueDiv{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.payme p{
+  font-size: 12px;
+}
+
+.footer3 .descFooter{
+  font-size: 13px;
+}
+
+.footer3 b{
+  font-size: 25px;
+  margin: 0;
+}
+
+.footer3 p{
+  margin: 0;
+  font-size: 25px;
+}
+
+.descOperator{
+  font-size: 13px;
+}
+
+.header4Title{
+  font-size: 18px;
+}
+
+
+
+.cancel{
+  position: absolute;
+  top: 135px;
+  right: 352px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid rgb(236, 236, 236);
+}
+
+.fa-times, .fa-check{
+  color: rgb(24, 21, 21);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+
+
+.check{
+  top: 249px;
+}
+
+.secondCancel{
+  top: 400px;
+}
+
+.secondCheck{
+  top: 514px;
+}
+
+.thirdCancel{
+  top: 665px;
+}
+
+.thirdCheck{
+  top: 780px;
+}
+
+.fourthCancel{
+  top: 930px;
+}
+
+.fourthCheck{
+  top: 1049px;
+}
+
+.border{
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.borderLast{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.border2{
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.borderLast2{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.border3{
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.borderLast3{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.border4{
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.borderLast4{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.row{
+  transition: .4s linear;
+}
+
+.row:hover{
+  box-shadow: 0 5px 30px rgb(172, 172, 172);
+}

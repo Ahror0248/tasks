@@ -1,0 +1,28 @@
+body{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 400px;
+  margin: 10px auto;
+  background-color: #fbfbfb;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+}
+
+.img1{
+  width: 100%;
+}
+
+.desc{
+  font-size: 13px;
+  letter-spacing: .3px;
+  color: #8a8a8a;
+}
+
+.a{
+  font-size: 13px;
+  text-align: right;
+}

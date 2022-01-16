@@ -1,0 +1,48 @@
+.wrapper {
+    width: 1200px;
+    margin: 300px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+    transition: all 0.2s ease-in-out;
+}
+
+.check {
+    display: none;
+}
+.checkbox label span:hover {
+    background-color: gray;
+}
+
+.checkbox label span:hover .check {
+    display: block;
+}
+
+
+.checkbox input[type=checkbox]:checked + label span{
+    background-color: #2196F3;
+    border: 2px solid #2196F3;
+}
+
+.checkbox input[type=checkbox]:checked + label span .check{
+    display: block;
+}
+
+.checkbox input[type=checkbox]:checked + label span:hover{
+    background-color: #077cd2;
+    border: 2px solid #077cd2;  
+}
+
+.checkbox input {
+    display: none;
+}

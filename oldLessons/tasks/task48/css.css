@@ -1,0 +1,73 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.rasm {
+  position: absolute;
+  right: 42%;
+  top: -15%;
+  z-index: 2;
+  border: 8px solid rgb(224, 224, 224);
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  overflow: visible !important;
+  position: relative;
+}
+
+.a {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.coder{
+    margin: 0;
+}
+
+.pos {
+  position: absolute;
+  width: 1100px;
+  height: 300px;
+  background-color: white;
+  top: 20%;
+  left: -10%;
+  z-index: -1;
+}
+
+.pp {
+  bottom: -5%;
+}
+
+.pp li {
+  background-color: transparent;
+  border: 3px solid rgb(87, 190, 147);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.pp .active {
+  background-color: rgb(87, 190, 147) !important;
+}
+
+.uuu {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 20000 !important;
+}
+
+.uuu:last-child {
+  left: unset;
+  top: unset;
+  right: 20px !important;
+  bottom: 0;
+}
+
+.carousel-item {
+  position: relative;
+}

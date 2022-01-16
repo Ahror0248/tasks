@@ -1,0 +1,64 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(236, 236, 236);
+}
+
+.col-lg-3 {
+  padding: 0 !important;
+  height: 320px;
+  background-color: #fff;
+  border-right: 10px solid rgb(236, 236, 236);
+  border-left: 10px solid rgb(236, 236, 236);
+}
+
+hr{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+
+
+.icons{
+  justify-content: space-evenly;
+}
+
+.dollar{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(37, 92, 241);
+  border-radius: 50%;
+}
+
+.eye{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(37, 92, 241);
+  border-radius: 50%;
+}
+
+.pen{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(240, 165, 68);
+  border-radius: 50%;
+}
+
+.cancel{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(212, 41, 11);
+  border-radius: 50%;
+}
+
+
+.fas{
+  color: white;
+  font-size: 20px;
+}
+
+.secondRow{
+  opacity: .6;
+}

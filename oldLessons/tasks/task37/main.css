@@ -1,0 +1,365 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e9e9e9;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container .nav-section {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .nav-section .title {
+  font-size: 30px;
+}
+
+.container .nav-section button {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #868686;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.container .body-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+  position: relative;
+}
+
+.container .body-section .card {
+  width: 45%;
+  height: 600px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.container .body-section .card .imgDiv {
+  position: relative;
+}
+
+.container .body-section .card .imgDiv .firstImg {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container .body-section .card .imgDiv .live {
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  top: 4%;
+  left: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: 600;
+}
+
+.container .body-section .card .imgDiv .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.container .body-section .card .imgDiv .player {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .body-section .card .imgDiv .fa-play {
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+.container .body-section .card .cardInfo {
+  padding: 30px;
+}
+
+.container .body-section .card .cardInfo .cardTitle {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container .body-section .card .cardInfo .userName {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.container .body-section .card .cardInfo .cardFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .body-section .card .cardInfo .cardFooter .footerDesc {
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+
+.container .body-section .card .cardInfo .cardFooter .socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .body-section .card .cardInfo .cardFooter .socialIcons .facebook {
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4px;
+  margin-right: 20px;
+  background-color: #5e5d5d;
+}
+
+.container .body-section .card .cardInfo .cardFooter .socialIcons .youtube {
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4px;
+  background-color: #5e5d5d;
+}
+
+.container .body-section .allRightCards {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .body-section .rightCards {
+  margin-bottom: 59px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .body-section .rightCards .smallCard {
+  width: 45%;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.container .body-section .rightCards .smallCard .smallCardImg {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container .body-section .rightCards .smallCard .smallPlayer {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: .4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 22%;
+  left: 40%;
+}
+
+.container .body-section .rightCards .smallCard .smallPlayer .fa-play {
+  font-size: 21px;
+  opacity: .8;
+}
+
+.container .body-section .rightCards .smallCard .anons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 80px;
+  height: 23px;
+  outline: none;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.container .body-section .rightCards .smallCard .anons img {
+  width: 16px;
+  height: 14px;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo {
+  padding: 20px;
+  margin: 0;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardTitle {
+  font-size: 15px;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardFooter .likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardFooter .likes .greatDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+  color: grey;
+  font-size: 14px;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardFooter .likes .lowDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  color: grey;
+  font-size: 14px;
+}
+
+.container .body-section .rightCards .smallCard .smallCardInfo .smallCardFooter .eyelash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+  font-size: 14px;
+}
+/*# sourceMappingURL=main.css.map */

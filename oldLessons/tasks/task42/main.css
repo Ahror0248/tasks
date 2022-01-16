@@ -1,0 +1,76 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+/* .container-all{
+  width: 90% !important;
+  margin: 0 auto;
+} */
+
+.wrapper-1{
+  background-image: url(./task_5/Rectangle\ 6.6.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 215px;
+  height: 500px;
+}
+
+.wrapper-2{
+  background-image: url(./task_5/Rectangle\ 6.7.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 215px;
+  height: 460px;
+}
+
+.wrapper{
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.wrapper img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.content{
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  /* transform: translate(-50% -50%); */
+  color: #fff;
+  overflow: hidden;
+}
+
+.overlay{
+  opacity: 0;
+}
+
+.wrapper:hover .img{
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.wrapper:hover img{
+  opacity: .5;
+}
+
+.wrapper:hover .overlay{
+  opacity: 1;
+}
+
+.buttonoverlay{
+  border-radius: 50px;
+  background-color: #EF7A2F;
+  outline: none;
+  color: #fff;
+}

@@ -1,0 +1,73 @@
+body{
+  font-family: sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  margin-top: 30px;
+  width: 800px;
+  height: 230px;
+  display: flex;
+}
+
+.leftSide{
+  height: 100%;
+  width: 45%;
+}
+
+.rightSide{
+  padding: 10px 20px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.fa-user{
+  color: #dbdbdb;
+}
+
+.userName{
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: .6px;
+  margin-left: 8px;
+  color: #c5c2c2;
+}
+
+.desc{
+  color: grey;
+  font-size: 14px;
+  letter-spacing: .5px;
+  margin-top: 25px;
+}
+
+.icons{
+  display: flex;
+  margin-top: 75px;
+}
+
+.cool{
+  width: 15px;
+  height: 15px;
+}
+
+.cold{
+  margin-left: 35px;
+}
+
+.eye{
+  width: 17px;
+  height: 13px;
+}
+
+.saved{
+  margin-left: 230px;
+}

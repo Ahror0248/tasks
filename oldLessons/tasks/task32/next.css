@@ -1,0 +1,81 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ababab;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  vertical-align: sub;
+  transition: all 0.4s linear;
+}
+
+.icon-fb {
+  mask-image: url("./assets/facebook.svg");
+  -webkit-mask-image: url("./assets/facebook.svg");
+  background-color: blue;
+}
+
+.back {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -120px;
+  left: -120px;
+  transform: rotate(45deg) scale(1.5);
+  background:  blue;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.item {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:  blue;
+  transition: all 0.2s linear;
+  transition-delay: 0.35s;
+}
+
+.box:hover .back {
+  bottom: 30px;
+  left: 30px;
+}
+
+.box:hover .item:hover {
+  bottom: -33px;
+  left: -33px;
+}
+
+.box:hover .icon-fb{
+  background-image: url(./assets/facebook.svg);
+  transform: scale(1.1);
+}

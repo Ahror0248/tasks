@@ -1,0 +1,121 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 0 20px;
+    margin-top: 50px;
+    width: 220px;
+}
+
+.card-header {
+    display: flex;
+    border: 1px solid silver;
+    border-bottom: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.arrows{
+    display: flex;
+}
+
+.fa-angle-left{
+    margin-right: 10px;
+}
+
+del{
+    color: silver;
+    font-size: 29px;
+    margin-right: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.stars img{
+    width: 18px;
+    background-color: #fff;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.price h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price del {
+    margin-top: 5px;
+    font-size: 8px;
+}
+
+.btn {
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.btn img {
+    width: 16px;
+}
+
+.line{
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+    top: 50%;
+    z-index: -1;
+}
+
+.nav{
+    width: 95vw;
+    position: absolute;
+    top: 1vw;
+    left: 2.5vw;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.progress{
+    width: 110px;
+    background-color: red;
+    height: 3px;
+}
+
+.progress2{
+    width: 100%;
+    background-color: grey;
+    height: 3px;
+}

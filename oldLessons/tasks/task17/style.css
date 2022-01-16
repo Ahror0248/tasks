@@ -1,0 +1,33 @@
+
+
+.container {
+  height: 500px;
+  width: 600px;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  background-image: linear-gradient(transparent, transparent,  blue), url(./mebel/product-3.png);
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+.wrappper{
+  width: 800px;
+  margin: 10px auto;
+}
+.title{
+  color: #fff;
+  padding-top: 350px;
+  text-align: end;
+}
+
+.price{
+  color: #fff;
+  text-align: end;
+}
+
+.container-1 {
+  background-image: linear-gradient(transparent, transparent,  blue), url(./mebel/product-4.png);
+}
+
+.container-2 {
+  background-image: linear-gradient(transparent, transparent,  blue), url(./mebel/product-5.png);
+}

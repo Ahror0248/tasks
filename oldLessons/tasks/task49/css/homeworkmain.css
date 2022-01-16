@@ -1,0 +1,151 @@
+.mm {
+  transform: translateX(80px);
+  font-size: 22px; }
+
+.mmm {
+  transform: translateX(300px); }
+
+.mtt{
+  margin-top:150px;
+}
+
+.t{
+  width: 1000px;
+  /*height: ;*/
+}
+
+.navbar ul li a{
+  color: black;
+}
+
+.t34{
+  width: 1250px;
+  height: 200px;
+  left: -120px;
+  bottom:100px;
+  position: absolute;
+  z-index: -2;
+  background-color: white;
+}
+
+.bosh {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition-duration: 0.5s;
+}
+
+.bir {
+  width: 27%;
+  background-color: white;
+  border-radius: 3px;
+  height: 350px;
+  margin-top: 100px;
+  transition-property: all;
+  transform: scale(1.1);
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+.ee .navbar ul li a{
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+input:focus{
+  box-shadow: none !important;
+}
+
+.bir:hover{
+  /*box-shadow: 0 0 10px;*/
+  transform: scale(1.3);
+}
+.bir:before{
+  content: '';
+  height: 5px;
+  width: 0;
+  background-color: #1dd1a1;
+  position: absolute;
+  transition-duration: 0.5s;
+}
+.bir:hover:before{
+  width: 100%;
+}
+
+.bir p {
+  font-size: 26px;
+  display: inline-block;
+}
+
+.bir h4 {
+  font-size: 18px;
+
+}
+
+.button {
+  border: 1px solid #1dd1a1;
+  color: #1dd1a1;
+  width: 30%;
+  border-radius: 10px;
+  transition-property: all;
+  transform: scale(1.2);
+  padding: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.bir .button:hover{
+  background-color: #1dd1a1;
+  color: white;
+  transition-duration: 0.5s;
+}
+.pll{
+  padding-left: 120px;
+}
+.w{
+  width: 133.6%;
+  margin-left: -188px;
+}
+.w2{
+  width: 133.6%;
+  margin-left: -180px;
+}
+.ptt{
+  padding-left: 170px;
+  padding-right: 170px;
+}
+body {
+  background-color: #dee3e7;
+}
+h2{
+}
+.aksiya{
+  position: absolute;
+  right: -6px;
+  width: 50%;
+  top: 10px;
+  z-index: 5;
+  background-color: #1dd1a1;
+  color: white;
+  padding: 5px;
+  transition-duration: 0.5s;
+}
+.bir:hover .aksiya{
+  box-shadow: 5px 5px 12px green;
+}
+
+.rasm{
+  position: absolute;
+  left: 450px;
+  top: -50px;
+  z-index: 2;
+}
+
+.carousel-inner{
+  overflow: unset !important;
+}
+.pt-6{
+  padding-top: 80px;
+}
+
+
+/*# sourceMappingURL=homeworkmain.css.map */
